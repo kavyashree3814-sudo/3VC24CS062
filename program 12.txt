@@ -1,0 +1,151 @@
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/kavya
+$ git clone https://github.com/kavyashree3814-sudo/3VC24CS062.git
+Cloning into '3VC24CS062'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/kavya
+$ ls
+3VC24CS062/
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/kavya
+$ cd 3VC24CS062
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/kavya/3VC24CS062 (main)
+$ ls
+README.md
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/kavya/3VC24CS062 (main)
+$ git checkout master
+error: pathspec 'master' did not match any file(s) known to git
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/kavya/3VC24CS062 (main)
+$ vi 12a.txt
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/kavya/3VC24CS062 (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/kavya/3VC24CS062 (main)
+$ git commit -m " I am in 12a branch master"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        12a.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/kavya/3VC24CS062 (main)
+$ vi 12b.txt
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/kavya/3VC24CS062 (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/kavya/3VC24CS062 (main)
+$ git commit -m " I am in 12b branch master "
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        12a.txt
+        12b.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/kavya/3VC24CS062 (main)
+$ vi 12a.txt
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/kavya/3VC24CS062 (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/kavya/3VC24CS062 (main)
+$
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/kavya/3VC24CS062 (main)
+$ git commit -m " I am in 12a branch master changes 1 "
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        12a.txt
+        12b.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/kavya/3VC24CS062 (main)
+$ vi 12b.txt
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/kavya/3VC24CS062 (main)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+Revert "Initial commit"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[main bb6ada7] Revert "Initial commit"
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 README.md
+
+Admin@DESKTOP-HGNLPEA MINGW64 /d/kavya/3VC24CS062 (main)
+$
