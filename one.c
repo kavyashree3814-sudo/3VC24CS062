@@ -1,6 +1,11 @@
-#include<stdio.h>
+
+include<stdio.h>
 void main()
 {
-  printf("c program");
-getch();
-}
+	printf("merging");
+}<F2>
+
+
+
+
+
